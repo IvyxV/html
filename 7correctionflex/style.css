@@ -1,0 +1,74 @@
+.container
+{
+  width: 60%;
+  height: 15em;
+  margin: auto;
+  background: #2c3e50;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* gérer le positionnement vertical et horizontal
+  justify-content: space-between;
+  align-items: center; */
+}
+.child
+{
+  /* Donne une taille aux enfants. */
+  flex-basis: 40%;
+}
+.child1
+{
+  background: #2ecc71;
+  flex-basis: 75%;
+}
+.child2
+{
+  background: #2980b9;
+  /* permet de grossir un élément.
+  flex-grow: 1; */
+  flex-basis: 25%;
+  /* permet de compresser un élément plus que les autres.
+  flex-shrink: 1; */
+}
+.child3
+{
+  background: #e74c3c;
+  flex-basis: 30%;
+}
+.child4
+{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.c1
+{
+background: #e67e22;
+flex-basis: 50%;
+}
+.c2
+{
+background:#95a5a6;
+flex-basis: 50%;
+}
+.c3
+{
+background: #f39c12;
+flex-basis: 33%;
+}
+.c4
+{
+background:  #16a085;
+flex-basis: 34%;
+}
+.c5
+{
+background: #d35400;
+flex-basis: 33%;
+}
+.child5
+{
+  background: #2c3e50;
+  flex-basis: 100%;
+}
